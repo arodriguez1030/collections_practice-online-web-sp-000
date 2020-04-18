@@ -43,6 +43,7 @@ end
 
 def find_a(array)
   array.map {|string| string == (/^[a,A]\w+/)}
+end
     
  
   
