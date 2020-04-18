@@ -42,7 +42,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.map {|string| string == (/^[a,A]\w+/)}
+  array.find_all {|string| string == (/^[a,A]\w+/)}
 end
     
  
