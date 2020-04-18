@@ -34,11 +34,12 @@ end
 
 def kesha_maker(array)
   i = 0
-  while i< ["blake", "ashley", "scott"].length
- yield(array[i])
+  kesha =["blake", "ashley", "scott"]
+  while i< kesha.length
+ yield(kesha[i[2]])
  i += 1
  end
- array
+ kesha
 end
 
  
