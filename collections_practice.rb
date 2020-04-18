@@ -42,7 +42,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.map {|string| }
+  array.map {|string| string == "a"+}
     
  
   
