@@ -33,13 +33,12 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  i = 0
-  kesha =["blake", "ashley", "scott"]
-  while i< kesha.length
- yield(kesha[i[2]])
- i += 1
- end
- kesha
+  return_array = []
+  array.each do |string|
+    string[2] = "$"
+    return_array << string
+  end
+  return_array
 end
 
  
